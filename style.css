@@ -44,10 +44,14 @@ body {
     flex-wrap: wrap;
 }
 
-.nav-right li {
+.nav-right li{
     font-weight: bold;
     cursor: pointer;
     color: white;
+}
+
+.nav-right li a{
+    text-decoration: none;
 }
 
 .social-images {
@@ -88,6 +92,7 @@ body {
 }
 
 .btn{
+    cursor: pointer;
     background-color: transparent;
     border: 2px solid white;
     font-size: larger;
@@ -108,7 +113,7 @@ body {
 .section-content
 {
     height: 200px;
-    width: 640px;
+    width: 650px;
     margin: 220px 400px;
     background-color: rgba(9, 101, 46, 0.85);
     font-weight: bold;
